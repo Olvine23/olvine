@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-pascal-case */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './App.css';
 import me from './me.jfif';
 import {Header} from './components/Nav';
@@ -7,7 +9,7 @@ import {Footer} from './components/MyFooter';
 import {Statistic} from './components/Stats';
 import {Team} from './components/Teams';
 import mine from './logo.jpg';
-import olly from './olly.jpg';
+ 
 function App() {
 
  const name = "Olvine George";
@@ -23,7 +25,7 @@ function App() {
             <p>
                 Got a project ?
             </p>
-            <a href="#" class="underline">
+            <a href= "#" className="underline">
                 Let&#x27;s talk
             </a>
         </div>
@@ -73,7 +75,7 @@ function App() {
     <div class="flex relative z-20 items-center">
         <div class="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
             <div class="flex flex-col">
-                <img src={me} className="rounded-full w-28  mx-auto"/>
+                <img src={me} alt="Olvine George" className="rounded-full w-28  mx-auto"/>
                 <p class="text-3xl my-6 text-center  ">
                     Hi, I&#x27;m {name} 🤘
                 </p>
