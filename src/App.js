@@ -1,5 +1,4 @@
 import React from 'react'
-import { Content } from './components/Content'
 import gram from "./gram.png"
 import Video from './components/Video'
 
