@@ -1,6 +1,7 @@
 import React from 'react'
 import gram from "./gram.png"
 import Video from './components/Video'
+import juice from './juice.mp4'
 import us from './us.jpg'
 import vid from './vid.mp4'
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
         shares={500}
         />
         
-        <Video url={vid} />
+        <Video url={juice} />
         </div>
           
         </div>
