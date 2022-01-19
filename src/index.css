@@ -2,8 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
+html{
+  scroll-snap-type:y mandatory;
+}
 body,
 #root {
   height: 100%;
+}
+.app-logo{
+  height:12vh;
+}
+.app{
+  display:grid;
+  place-items:center;
+  background-color:black; 
+}
+.app-top > h1{
+  text-align:center;
+  color:white;
+  margin-bottom:150px;
+}
+.app-videos{
+  height:65vh;
+  width:70%;
+  border-radius:20px;
+  overflow:scroll;
+  scroll-snap-type:y mandatory;
+  background-color:white;
+}
+
+.app-videos::-webkit-scrollbar{
+  display:none;
+}
+.app-videos{
+  -ms-overflow-style:none;
+  scrollbar-width:none
 }
