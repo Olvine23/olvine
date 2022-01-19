@@ -7,7 +7,7 @@ const App = () => {
         <div className="app">
         <h2>Hello</h2>
         <div className="app-top">
-        <img className="app-logo" src={gram}></img>
+        <img className="app-logo" alt="gram" src={gram}></img>
         <h1>Ollygram</h1>
         </div>
             
