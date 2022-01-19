@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react'
 import './Video.css';
 import vid from '../vid.mp4'
+import VideoHeader from './VideoHeader';
 const Video = () => { 
     const [isVideoPlaying,setIsVideoPlaying] = useState(false)
     const videoRef = useRef(null)
@@ -23,6 +24,7 @@ const Video = () => {
     return (
 
         <div className="video">
+        <VideoHeader />
         <video
         ref={videoRef}
         onClick={onVideoPress}

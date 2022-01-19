@@ -20,11 +20,11 @@ body,
 .app-top > h1{
   text-align:center;
   color:white;
-  margin-bottom:150px;
+  margin-bottom:118px;
 }
 .app-videos{
   height:65vh;
-  width:70%;
+  width:80%;
   border-radius:20px;
   overflow:scroll;
   scroll-snap-type:y mandatory;
