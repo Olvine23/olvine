@@ -1,5 +1,4 @@
 import React from 'react'
-import gram from "./gram.png"
 import Video from './components/Video'
 import juice from './juice.mp4'
 import us from './us.jpg'
