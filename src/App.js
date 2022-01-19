@@ -4,12 +4,14 @@ import Video from './components/Video'
 import juice from './juice.mp4'
 import us from './us.jpg'
 import vid from './vid.mp4'
+import quote from './quote.mkv'
+import olly from './mine.png'
 const App = () => {
     return (
         <div className="app">
         <div className="app-top">
-        <img className="app-logo" alt="gram" src={gram}></img>
-        <h1>Ollygram</h1>
+        <img className="app-logo" alt="gram" src={olly}></img>
+        <h1>VinTok</h1>
         </div>
             
         <div className="app-videos">
@@ -22,6 +24,7 @@ const App = () => {
         shares={500}
         />
         
+        <Video url={quote} />
         <Video url={juice} />
         </div>
           
