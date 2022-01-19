@@ -2,9 +2,11 @@ import React from 'react'
 import Video from './components/Video'
 import juice from './juice.mp4'
 import us from './us.jpg'
+import alone from './alone.mp4'
 import vid from './vid.mp4'
 import quote from './quote.mkv'
 import olly from './mine.png'
+ 
 const App = () => {
     return (
         <div className="app">
@@ -25,6 +27,7 @@ const App = () => {
         
         <Video url={quote} />
         <Video url={juice} />
+        <Video className="alone" url={alone} />
         </div>
           
         </div>
