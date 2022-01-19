@@ -1,7 +1,6 @@
 import React from 'react'
 import gram from "./gram.png"
 import Video from './components/Video'
-import VideoFooter from './components/VideoFooter'
 import us from './us.jpg'
 import vid from './vid.mp4'
 const App = () => {
