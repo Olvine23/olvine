@@ -1,5 +1,4 @@
 import React from 'react';
-import SendIcon from '@material-ui/icons/Send';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import CameraAltIcon from '@material-ui/icons/CameraAlt';
 import './VideoHeader.css';
