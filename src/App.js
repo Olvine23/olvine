@@ -1,6 +1,7 @@
 import React from 'react'
 import gram from "./gram.png"
 import Video from './components/Video'
+import VideoFooter from './components/VideoFooter'
 
 const App = () => {
     return (
@@ -12,7 +13,7 @@ const App = () => {
             
         <div className="app-videos">
         <Video />
-        <Video />
+        <VideoFooter />
         <Video />
         </div>
           
