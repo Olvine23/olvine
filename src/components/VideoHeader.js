@@ -4,7 +4,7 @@ import CameraAltIcon from '@material-ui/icons/CameraAlt';
 import './VideoHeader.css';
 
 const VideoHeader = () => {
-  return <div className="video-header">
+  return <div className="video-header p-4">
       <ArrowBackIosIcon />
       <h3>Ollygram Rules</h3>
       <CameraAltIcon />

@@ -19,16 +19,17 @@ body,
 }
 .app-top > h1{
   text-align:center;
-  color:white;
-  margin-bottom:118px;
+  color:black;
+  margin-bottom:1px;
 }
 .app-videos{
-  height:65vh;
-  width:80%;
+  height:85vh;
+  width:100%;
   border-radius:20px;
   overflow:scroll;
+  background-color: black;
   scroll-snap-type:y mandatory;
-  background-color:white;
+   
 }
 
 .app-videos::-webkit-scrollbar{
