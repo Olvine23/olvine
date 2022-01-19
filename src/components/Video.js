@@ -1,8 +1,9 @@
 import React, {useRef, useState} from 'react'
 import './Video.css';
-import vid from '../vid.mp4'
+ 
 import VideoHeader from './VideoHeader';
-const Video = () => { 
+import VideoFooter from './VideoFooter';
+const Video = ({shares, url,likes, channel, avatarSrc, song}) => { 
     const [isVideoPlaying,setIsVideoPlaying] = useState(false)
     const videoRef = useRef(null)
     const onVideoPress = () => {
@@ -26,12 +27,23 @@ const Video = () => {
         <div className="video">
         <VideoHeader />
         <video
+
         ref={videoRef}
         onClick={onVideoPress}
         className="video-player"
-        src = {vid}
+        src = {url}
         alt ='Ollygram vid'
         loop={true}
+        />
+        < VideoFooter
+        channel={channel}
+        likes={likes}
+         shares={shares}
+         avatarSrc={avatarSrc}
+         song={song}
+
+
+         
         />
             
         </div>

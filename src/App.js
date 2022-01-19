@@ -2,7 +2,8 @@ import React from 'react'
 import gram from "./gram.png"
 import Video from './components/Video'
 import VideoFooter from './components/VideoFooter'
-
+import us from './us.jpg'
+import vid from './vid.mp4'
 const App = () => {
     return (
         <div className="app">
@@ -12,9 +13,16 @@ const App = () => {
         </div>
             
         <div className="app-videos">
-        <Video />
-        <VideoFooter />
-        <Video />
+        <Video
+        channel = "Olvine George"
+        avatarSrc={us}
+        song= 'Test song'
+        url={vid}
+        likes={1000}
+        shares={500}
+        />
+        
+        <Video url={vid} />
         </div>
           
         </div>
