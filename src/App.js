@@ -6,7 +6,7 @@ import alone from './alone.mp4'
 import vid from './vid.mp4'
 import quote from './quote.mkv'
 import lotti from './lotti.mp4'
-import hard from './hard.mp4'
+import hard from './problem.mp4'
  
 const App = () => {
     return (
@@ -54,7 +54,13 @@ const App = () => {
         channel="Olvine George"
         url={lotti}
         song="Juice Wrld - I love Ally" />
-         
+        <Video className="alone" 
+        avatarSrc={us}
+        likes={10000000}
+        shares={50000000}
+        channel="Olvine George"
+        url={hard}
+        song="Juice Wrld - Problem" />
         </div>
           
         </div>
