@@ -12,8 +12,8 @@ const App = () => {
     return (
         <div className="app bg-gray-900">
         <div className="app-top">
-        <h1 className='text-yellow-500 mt-0 font-bold uppercase p-2 text-5xl font-poppins'>Vine <span className='text-red-500'> Lov </span></h1>
-        <h1 className='text-white'>Made by Olvine: <a className='text-yellow-500' href="https://www.github.com/Olvine23" value="Github Profile">Link to Github</a></h1>
+        <h1 className='text-yellow-500 mt-0 font-bold uppercase p-1 text-3sm font-poppins'>Vine <span className='text-red-500'> Lov </span></h1>
+        {/* <h1 className='text-white'>Made by Olvine: <a className='text-yellow-500' href="https://www.github.com/Olvine23" value="Github Profile">Link to Github</a></h1> */}
         </div>
             
         <div className="app-videos lg:w-50">

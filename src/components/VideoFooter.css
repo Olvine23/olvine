@@ -2,7 +2,7 @@
 .video-footer{
     position: relative;
     margin-left: 20px;
-    bottom: 100px;
+    bottom: 150px;
 }
 .videoFooter-ticker > .ticker{
     width: 60%;
@@ -19,7 +19,7 @@
 }
 .videoFooter-text > h3{
     margin-left: 12px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .videoFooter-text > h3 > button{
     color: white;
