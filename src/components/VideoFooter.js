@@ -21,8 +21,8 @@ const VideoFooter = ({channel,likes,shares, song, avatarSrc}) => <div className=
             }
 
         </Ticker>
-
     </div>
+    <div className="videoFooter-actions"></div>
     
 </div>;
 
