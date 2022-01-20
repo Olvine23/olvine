@@ -5,17 +5,18 @@ import us from './us.jpg'
 import alone from './alone.mp4'
 import vid from './vid.mp4'
 import quote from './quote.mkv'
- 
+import lotti from './lotti.mp4'
+import hard from './hard.mp4'
  
 const App = () => {
     return (
         <div className="app bg-gray-900">
         <div className="app-top">
-        <h1 className='text-green-500 mt-0 font-bold uppercase p-2 text-6xl font-poppins'>Vine <span className='text-red-500'> Lov </span></h1>
+        <h1 className='text-yellow-500 mt-0 font-bold uppercase p-2 text-6xl font-poppins'>Vine <span className='text-red-500'> Lov </span></h1>
         <h1 className='text-white'>Made by Olvine: <a className='text-yellow-500' href="https://www.github.com/Olvine23" value="Github Profile">Link to Github</a></h1>
         </div>
             
-        <div className="app-videos">
+        <div className="app-videos lg:w-50">
         <Video
         channel = "Olvine George"
         avatarSrc={us}
@@ -46,6 +47,14 @@ const App = () => {
         channel="Olvine George"
         url={alone}
         song="Juice Wrld - All Alone" />
+        <Video className="alone" 
+        avatarSrc={us}
+        likes={10000000}
+        shares={50000000}
+        channel="Olvine George"
+        url={lotti}
+        song="Juice Wrld - I love Ally" />
+         
         </div>
           
         </div>
