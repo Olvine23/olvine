@@ -25,9 +25,21 @@ const App = () => {
         shares={500}
         />
         
-        <Video url={quote} />
-        <Video url={juice} />
-        <Video className="alone" url={alone} />
+        <Video 
+        channel="Olvine George"
+        avatarSrc={us}
+        url={quote}
+        song="Juice Wrld - A thing about life" />
+        <Video 
+        channel="Olvine George"
+        avatarSrc={us}
+        url={juice}
+        song="Juice Wrld - Fast" />
+        <Video className="alone" 
+        avatarSrc={us}
+        channel="Olvine George"
+        url={alone}
+        song="Juice Wrld - All Alone" />
         </div>
           
         </div>
