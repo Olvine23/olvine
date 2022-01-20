@@ -18,7 +18,7 @@ const VideoFooter = ({channel,likes,shares, song, avatarSrc}) => <div className=
             {
               ({index}) =>(
                  <>
-                 <h1 className='text-gray-900'>{song}</h1>
+                 <h1 className='text-gray-900 bg-white p-2 rounded'>{song}</h1>
                  </>
               )
             }
@@ -35,11 +35,11 @@ const VideoFooter = ({channel,likes,shares, song, avatarSrc}) => <div className=
         <div className="right">
         <div className="stat">
                 <FavoriteIcon className="text-red-500" /> 
-                <p className='mr-5 text-green-500'>{likes}</p>
+                <p className='mr-5 font-bold rounded text-green-500'>{likes}</p>
             </div>
             <div className="stat">
-                <ModeCommentIcon />
-                <p className='text-green-500'>{shares}</p>
+                <ModeCommentIcon className='text-white' />
+                <p className='text-green-500 font-bold'>{shares}</p>
             </div>
 
         </div>
