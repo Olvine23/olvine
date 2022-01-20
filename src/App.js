@@ -5,14 +5,13 @@ import us from './us.jpg'
 import alone from './alone.mp4'
 import vid from './vid.mp4'
 import quote from './quote.mkv'
-import olly from './mine.png'
+ 
  
 const App = () => {
     return (
-        <div className="app">
+        <div className="app bg-gray-900">
         <div className="app-top">
-        <img className="app-logo" alt="gram" src={olly}></img>
-        <h1>VinTok</h1>
+        <h1 className='text-green-500 mt-0 font-bold uppercase p-5 text-6xl font-poppins'>Vine <span className='text-red-500'> Lov </span></h1>
         </div>
             
         <div className="app-videos">

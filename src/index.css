@@ -5,23 +5,23 @@
 html{
   scroll-snap-type:y mandatory;
 }
+
 body,
 #root {
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 .app-logo{
-  height:12vh;
+  height:5vh;
 }
 .app{
   display:grid;
-  place-items:center;
-  background-color:black; 
+  place-items:center; 
 }
-.app-top > h1{
-  text-align:center;
-  color:black;
-  margin-bottom:1px;
+h1{
+  font-family: 'Lobster', cursive;
 }
+ 
 .app-videos{
   height:85vh;
   width:100%;

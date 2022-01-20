@@ -39,6 +39,28 @@
 }
 .videoFooter-ticker h1{
     font-size: 12px;
-    color: white;
     padding-top: 7px;
+}
+.videoFooter-actions{
+    display: flex;
+    
+    width:95%;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.left > .MuiSvgIcon-root{
+    padding: 0 10px;
+}
+.right{
+    display: flex;
+}
+.videoFooter-stat{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.videoFooter-stat > p{
+    margin-left: 3px;
 }
