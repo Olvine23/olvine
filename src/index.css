@@ -10,6 +10,7 @@ body,
 #root {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
+  background-color: black;
 }
 .app-logo{
   height:5vh;

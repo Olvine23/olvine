@@ -8,10 +8,9 @@ import SendIcon from '@material-ui/icons/Send'
 import ModeCommentIcon from '@material-ui/icons/ModeComment'
 import {Link} from 'react-router-dom'
 const VideoFooter = ({channel,likes,shares, song, avatarSrc}) => <div className="video-footer">
-    <div className="videoFooter-text">
+<div className="videoFooter-text">
    <Link to = "/header"> <Avatar src={avatarSrc} /> </Link>
-    <h3 className='text-white font-bold'>{channel} . <Button>Follow</Button>
-    </h3>
+    <h3 className='text-white font-bold'>{channel} . <Button>Follow</Button></h3>
     </div>
     <div className="videoFooter-ticker">
         <MusicNoteIcon className="video-footer-icon "/>
