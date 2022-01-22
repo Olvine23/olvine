@@ -8,7 +8,8 @@ import quote from './quote.mkv'
 import lotti from './lotti.mp4'
 import video from './number.mkv'
 import hard from './problem.mp4'
- 
+import spidy from './spidy.mp4'
+import coder from './coder.mp4'
 const App = () => {
     return (
         <div className="app bg-gray-900">
@@ -67,6 +68,21 @@ const App = () => {
         channel="Olvine George"
         url={video}
         song="Tik Tok" />
+        <Video className="alone" 
+        avatarSrc={us}
+        likes={10000000}
+        shares={50000000}
+        channel="Olvine George"
+        url={spidy}
+        song="Tik Tok" />
+        <Video className="alone" 
+        avatarSrc={us}
+        likes={10000000}
+        shares={50000000}
+        channel="Olvine George"
+        url={coder}
+        song="Tik Tok" />
+
         </div>
           
         </div>
