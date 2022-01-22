@@ -35,11 +35,11 @@ const VideoFooter = ({channel,likes,shares, song, avatarSrc}) => <div className=
         <div className="right">
         <div className="stat">
                 <FavoriteIcon fontSize="small" className="text-red-500" /> 
-                <p className='mr-5 font-bold rounded text-green-500'>{likes}</p>
+                <p className='mr-5 font-bold rounded text-black'>{likes}</p>
             </div>
             <div className="stat">
                 <ModeCommentIcon fontSize='small' className='text-white' />
-                <p className='text-green-500 font-bold'>{shares}</p>
+                <p className='text-black font-bold'>{shares}</p>
             </div>
 
         </div>
