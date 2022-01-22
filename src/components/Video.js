@@ -47,9 +47,6 @@ const Video = ({shares, url,likes, channel, avatarSrc, song}) => {
          shares={shares}
          avatarSrc={avatarSrc}
          song={song}
-
-
-         
         />
             
         </div>

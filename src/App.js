@@ -25,6 +25,7 @@ const App = () => {
         likes={1000}
         shares={500}
         />
+        <p>lorem okss</p>
         
         <Video 
         channel="Olvine George"

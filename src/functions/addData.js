@@ -10,7 +10,7 @@ exports.handler = async function(event, context, callback){
 
     });
     console.log(astraClient)
-    const posts = astraClient.namespace(process.env.ASTRA_DB_KEYSPACE).collection("posts")
+     
 
 }
 

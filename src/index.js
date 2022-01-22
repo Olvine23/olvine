@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
-    <Route path="/home" element={<App />} />
+    <Route path="/" element={<App />} />
     <Route path="/header" element={<Team />} />
   </Routes>
 </BrowserRouter>, document.getElementById('root'),
