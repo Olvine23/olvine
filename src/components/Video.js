@@ -1,17 +1,19 @@
-import React, {useRef, useState} from 'react'
+import React, {useRef, useState, useEffect} from 'react'
 import './Video.css';
- 
+import useElementOnScreen  from './useElementOnScreen'
 import VideoHeader from './VideoHeader';
 import VideoFooter from './VideoFooter';
 const Video = ({shares, url,likes, channel, avatarSrc, song}) => { 
     const [isVideoPlaying,setIsVideoPlaying] = useState(false)
     const videoRef = useRef(null)
-    const onVideoScroll =() => {
-        if(isVideoPlaying){
-            videoRef.current.pause()
-            setIsVideoPlaying(false)
-        }
+    const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.3
     }
+
+    const isVisibile = useElementOnScreen(options, videoRef)
+     
     const onVideoPress = () => {
         if(isVideoPlaying){
             //stop video
@@ -23,8 +25,22 @@ const Video = ({shares, url,likes, channel, avatarSrc, song}) => {
             videoRef.current.play();
             setIsVideoPlaying(true)
         }
+    };
 
-    }
+    useEffect(() => {
+        if (isVisibile) {
+          if (!isVideoPlaying) {        
+            videoRef.current.play();
+            setIsVideoPlaying(true)
+          }
+        }
+        else {
+          if (isVideoPlaying) {        
+            videoRef.current.pause();
+            setIsVideoPlaying(false)
+          }
+        }
+      }, [isVisibile])
     return (
 
         <div className="video">
@@ -35,7 +51,7 @@ const Video = ({shares, url,likes, channel, avatarSrc, song}) => {
 
         ref={videoRef}
         onClick={onVideoPress}
-        onScroll={onVideoScroll}
+    
         className="video-player"
         src = {url}
         alt ='Ollygram vid'
@@ -47,6 +63,9 @@ const Video = ({shares, url,likes, channel, avatarSrc, song}) => {
          shares={shares}
          avatarSrc={avatarSrc}
          song={song}
+
+
+         
         />
             
         </div>

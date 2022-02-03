@@ -9,7 +9,7 @@ import ModeCommentIcon from '@material-ui/icons/ModeComment'
 import {Link} from 'react-router-dom'
 const VideoFooter = ({channel,likes,shares, song, avatarSrc}) => <div className="video-footer">
 <div className="videoFooter-text">
-   <Link to = "/header"> <Avatar src={avatarSrc} /> </Link>
+   <Link to = "/youtube"> <Avatar src={avatarSrc} /> </Link>
     <h3 className='text-white font-bold'>{channel} . <Button>Follow</Button></h3>
     </div>
     <div className="videoFooter-ticker">

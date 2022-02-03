@@ -82,6 +82,17 @@ const App = () => {
         channel="Olvine George"
         url={coder}
         song="Tik Tok" />
+        
+        <Video className="alone" 
+        avatarSrc={us}
+        likes={10000000}
+        shares={50000000}
+        channel="Olvine George"
+        url={coder}
+        song="Tik Tok" />
+        
+
+
 
         </div>
           

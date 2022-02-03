@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Team} from './components/Teams';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import YouTube from './components/YouTube';
 
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<App />} />
     <Route path="/header" element={<Team />} />
+    <Route path="/youtube" element={<YouTube />} />
   </Routes>
 </BrowserRouter>, document.getElementById('root'),
 );
