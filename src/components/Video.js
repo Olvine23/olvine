@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, {useRef, useState, useEffect} from 'react'
 import './Video.css';
 import useElementOnScreen  from './useElementOnScreen'
