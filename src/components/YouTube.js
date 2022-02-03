@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import YouTubePlayer from 'react-player/youtube'
 import tube from '../tube.png'
