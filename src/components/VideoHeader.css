@@ -9,3 +9,6 @@
 .video-header > *{
     padding: 3px;
 }
+.title{
+    z-index:15;
+}

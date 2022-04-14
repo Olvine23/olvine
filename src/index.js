@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Forum from './components/Edit'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Team} from './components/Teams';
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Route path="/" element={<App />} />
     <Route path="/header" element={<Team />} />
     <Route path="/youtube" element={<YouTube />} />
+    <Route path = "edit" element ={<Forum />} />
   </Routes>
 </BrowserRouter>, document.getElementById('root'),
 );
